@@ -19,7 +19,7 @@ def url_parse(name):
                 )?
                 (?::(?P<port>[^/\?]*))?
             )?
-            (?:/(?P<database>[^\?]*))?
+            (?:/(?P<path>[^\?]*))?
             (?:\?(?P<query>.*))?
             """,
         re.X,
